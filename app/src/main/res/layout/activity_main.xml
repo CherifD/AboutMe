@@ -6,13 +6,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
+
     <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/name"
             android:id="@+id/name_textView"
-            android:textSize="@dimen/name_text_size"
-            android:textAlignment="center"
-            android:textColor="@android:color/black"/>
+            android:paddingTop="@dimen/name_text_top_padding"
+            android:layout_marginTop="@dimen/name_text_top_margin"
+            style="@style/name_textView_style"/>
 
 </LinearLayout>
